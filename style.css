@@ -1,0 +1,197 @@
+header nav{
+    display: flex;
+    margin-left: 50px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    position: relative;
+    left: 620px;
+    width: 400px;
+    color: black;
+}
+ul li a{
+    margin-left: 40px;
+}
+header img{
+    width: 76px;
+    height: 56px;
+}
+.aylana{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.aylana p{
+    margin-left: 40px;
+    font-size: 26px;
+    margin-top: -1px;
+}
+.text p{
+    font-size: 65px;
+    margin-left: 150px;
+}
+.text h3{
+    text-align: center;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+.text button{
+    width: 251px;
+    height: 56px;
+    background-color: #285E67;
+    border-radius: 56px;
+    margin-left: 500px;
+    border: 2px solid #285E67;
+    font-size: 21px;
+    color: white;
+}
+.rasm img{
+width: 526px;
+height: 291px;
+border-radius: 16px;
+margin-left: 50px;
+margin-top: 100px;
+}
+.rasm{
+    margin-left: 70px;
+}
+.main{
+    width: 1300px;
+    height: 446px;
+    background-color: #F4F4F4;
+    margin-left: 15px;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+.main p{
+    font-size: 50px;
+    margin-left: 100px;
+    position: relative;
+    top: 100px;
+}
+.main img{
+    width: Fixed (1,300px);
+height: Fixed (3,524px);
+position: relative;
+top: 110px;
+left: 100px;
+}
+.main h5{
+    position: relative;
+    width: 200px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.main1{
+    margin-left: 300px;
+    margin-top: -250px;
+}
+.qiz img{
+width: 291px;
+height: 294px;
+position: relative;
+top: -210px;
+left: 891px;
+}
+@media(max-width:1024px){
+    header ul{
+        margin-left: -30px;
+    }
+    .text p{
+        text-align: center;
+        width: 1200px;
+        font-size: 100px;
+        margin-left: 50px;
+    }
+    .text h3{
+        width: 600px;
+        margin-left: 300px;
+        margin-top: -80px;
+    }
+    .rasm{
+        width: 427px;
+        height: 391px;
+        display: flex;
+        margin-left: 110px;
+    }
+    .qiz{
+        display: none;
+    }
+    .main p{
+        text-align: center;
+    }
+    .main{
+        width:1000px;
+        height:480.5px;
+        margin-left: 150px;
+    }
+    .main img{
+        margin-left: 230px;
+    }
+    .main h5{
+        margin-left: 280px;
+        text-align: center;
+    }
+}
+@media(max-width:430px){
+     header ul li{
+        display: none;
+     }
+     .aylana{
+        margin-left: 50px;
+     }
+     .text p{
+        width: 285px;
+        font-size: 37px;
+        text-align: center;
+     }
+     .text h3{
+        font-size: 16px;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 3px;
+     }
+     .text button{
+        margin-left: 50px;
+     }
+     .rasm img{
+        width: 356px;
+        height: 391px;
+        border-radius: 16px;
+        margin-left: -80px;
+     }
+     .rasm{
+        flex-wrap: wrap;
+     }
+     .main p{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: -4 0px;
+     }
+     .main{
+        margin-top: 600px;
+        Width:360px;
+        Height:654px;
+        margin-left: 30px;
+     }
+     .main img{
+        margin-left: 30px;
+     }
+     .main1 img{
+        margin-left: -00px;
+     }
+     .main h5{
+        margin-left: 50px;
+     }
+     .main1{
+        margin-top: -30px;
+        margin-left: 20px;
+     }
+}
